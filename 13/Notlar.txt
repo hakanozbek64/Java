@@ -1,0 +1,47 @@
+13.ders:
+
+
+while -do while döngüsü:
+
+burada ana class mýzý oluþturarak iþe baþlýyoruz ...
+
+for döngsünü görmüþtük for döngüsünde döngünün nereye kadar dönecegini biliyorduk ,ayarlýyorduk
+
+ancak while de ise bunu bilemiyoruz..
+
+while yaptýgýmýz sonuc dogru oluncaya kadar döngü döner.
+true oldugunda dogru oldugu için döngü bitiyor.
+
+false ise döngümüz herzaman dönüyor.
+
+dogru oluncaya kadar..
+---------------------
+
+örnegimiz:
+
+bir dizi oluþturucaz ve dizilerde þehirlerin adlarý olacak ve burdan bir þehir belirleyecegiz.ve bu þehrin bize kaçýncý sýrada oldugunu þöyleyecek
+
+yapýcagýmýz iþ budur.
+
+------------------
+
+
+do while ise ekrandan bize soru soracak
+
+mesela nasýlsýn diyecek bizde iyiyim sen nasýlsýn diyicez...
+o da bende iyiyim teþekkür ederim saol diyecek...
+
+
+
+biz nasýlsýn bende iyiyim demessek bize
+desin ki
+nasýlsýn diye sordum tekrar soruyorum ...
+
+bu þeklild bir program yapmýþ olucaz ...
+
+
+soru soracagýmýz için packet ekliyoruz pacet reader 
+
+daha sonra biz baffer readerýmýzý tanýmlýyoruz ...
+
+***ders sonu

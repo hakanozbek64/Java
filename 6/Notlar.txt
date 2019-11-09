@@ -1,0 +1,102 @@
+6. ders:
+
+
+stringler ile ilgili:
+
+
+stringler cümle yada kelimeler için kullanýlýr.
+
+türkçe kelime anlamý kelime yada cümle diye tarif edilir...
+
+
+basit bir örnek yapýldý .
+
+
+
+bazý metodlarý görelim ...
+
+
+char :aslýnda harf tipinde kullanýlýr.
+
+- deger almaz.
+
+harfin degiþtirlmesi:
+
+
+örnegin: System.out.println(a.replace("a", "u"));
+
+gibi
+
+length:
+length bunun kaç karekter oldugunu bize söylemiþ oluyor...
+
+boþlukta bir karekterdir .bunuda unutmamak gerekir.
+equlas: 
+
+karþýlaþtýrmada kullanýlýr.
+
+
+
+
+endswith : 
+en son harfin  ne oldugunu kontrol ediyor.
+
+
+tolowercase : 
+
+tüm harflarimizi küçük yazmak için kullanýlýr.
+
+touppercase: ile harflerimizin hepsini büyük yapýyoruz.
+
+
+substring: karekterlerimizi parcalýyor bir pasta dilimi gibi nereden nereye olacagýný biz belirtiyoruz.
+
+1.yazarsak  ilk karekterden sonrasýný  yazar.
+
+indexof :karekterin kaçýncý sýrada oldugunu bize blirtmiþ oluyor.
+
+hata degilde -1 degerini verebilir.
+
+
+sringte olan bir sayý ile sabit bir sayýyý  nasýl toplayabilriz.
+
+floatýn uzun biçimine double diyebiliriz.
+
+float.parsefloat(a+3 ); dersek iki 
+sayýyý toplar .
+
+örnegi inceleyiniz.
+
+double sayýyý nasýl integer türüne cevirebilriz.
+
+double x=3.255d;
+
+ýnteger a=x.ýntvalue();
+dersek ceviri yapýlmýþ olur.
+
+
+ayný þekilde diger uygun türleride cevirebiliyoruz.
+
+
+örnegin ;floatttan shot tipine 
+
+örnegin integerden stringe gibi !
+
+class tipinden ilkel tipe nasýl cevirecegiz...
+
+
+
+ilkelden nasýl integere cevitiyoruz?
+
+
+burada önemli bir nokta ilkel tiplerin metodlarý yoktur u yüzden ceviremiyoruz.
+
+
+
+
+
+örneklere bakýnýz ...
+cevirmenin diger adýda rapperdir.
+
+
+***ders sonu

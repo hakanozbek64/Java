@@ -1,0 +1,43 @@
+1. ders:
+
+java da herþey en küçük yapýcagýmýz þey bile clas'lardan oluþmaktadýr...
+
+public class main  { 
+
+ana sýnýfýmýz dýr.
+
+
+ public static void main(String[] args) { 
+
+bu olmadan hiç bir programýmýz calýþmaz...
+
+
+kýsmýný acýklarsak ...
+
+
+public : herkese acýk demek,yani diger claslardan eriþilebilecegini bilirtir.
+
+static: bu metodo referans alarak kullanabileceimizi söyler.
+
+void : hiç bir deger döndürülmiyecegini söyler...
+
+main ; java da kod yazýldýktan sonra calýþtýrýlýnca ilk baþlangýc kýsmý main dir.
+
+String[] args) ksýmýnda ise parantez içinde parametreler girmemiz isteniyor...
+
+
+
+System.out.println("java dünyasýna hoþgeldiniz..."); 
+
+ksýmýný acýklarsak;
+
+System sýnýfýnýn out propertisinin printýn fonksiyonunu kullandýk.
+
+***ders sonu.
+
+
+
+
+
+
+

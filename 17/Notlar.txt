@@ -1,0 +1,147 @@
+17.ders: for dongusu iþlenecektir.
+
+for dongusu ile yaptýgýmýz kodu döngüye sokmuþ oluyoruz yani tekrarlatmýþ oluyoruz...
+
+mesala 10 turluk bir yarýþ var
+
+1. turdan son 10. tura kadar yazdýracaz bunu kodla gösterelim...
+public class ForDongusu {
+    
+    public static  void main(String [] args)
+    {
+    
+      System.out.println("yarýþ baþladý...!");  
+        
+        for(int i=1;i<=10;i++)
+        {
+        System.out.println(i+". tur.");
+            
+        }
+        System.out.println("yarýþ bitti.");
+        
+        
+    }
+      
+}
+
+for dongusunun oluþturulmasý if gibi..
+
+
+bir fark var..
+
+for(ilk deger;koþul;artýþ miktarý){} 
+
+
+eksilterek gitmek için 
+
+for(i=10;i>0;i--) 10,9,8...1
+
+eger
+for(i=10;i>0;--i) olursa 10,9,8..1 olur.
+------------
+
+benzer þekilde :olabilir..
+
+public class ForDongusu {
+    
+    public static  void main(String [] args)
+    {
+    int y,x=1;
+for(y=x++;y<10;y++)
+{
+system.out.printýn(y)
+
+
+}
+yapýlabilir
+
+sonuc 1,2,3 cunku x in ilke degeri alýnýyor ve üzerine artýrarak gidiyor
+
+ancak y=++x dersek ozaman 2,3,4
+burada ise x in degeri 1 artýp baþlýyor saymýya...
+------------
+
+
+beþer beþer sayýlarý yazdýralým
+public class ForDongusu {
+    
+    public static  void main(String [] args)
+    {
+for (int i=0;i<=100;i+=5)
+{
+system.out.print(i+",");
+}
+
+sonucta :0,5,10,15...100 kadar gider.
+
+i+=5 demek i=i+5 olarakta yazýlabilir.
+
+------------
+100 den geri ise
+
+for(int i=100;i>0;i=i-5)
+
+þeklinde olur.
+---------------
+
+þöylede yapýlabilri:
+
+i+=5
+
+i-=5
+
+i*=5
+
+i/=5 diyerekte kullanabiliriz.
+----------------
+örnegin
+
+public class ForDongusu {
+    
+    public static  void main(String [] args)
+    {
+for (i=0;i<100;i+=5)
+{
+system.out.printýn(i);
+
+if(i<100)system.out.printýn(",");
+}
+
+
+þeklindede ilginç þekilde olabiliyor.
+
+-----------------
+
+for içinde istedigimiz java kodunu kullanabiliriz böyle bir kolaylýgý da var 
+------------
+
+
+gurup halinde degerleri yazdýrmak istersek:
+þöyleki;
+
+
+public class ForDongusu {
+    
+    public static  void main(String [] args)
+    {
+
+for(int i=0;i<=3;i++)
+{
+
+for(int j=0;j<3;j++)
+{
+system.out.printýn (j);
+
+}
+}
+
+
+---------------
+
+
+dizi oluþturacak þekilde bir for içinde for yapabiliriz:
+
+
+substring(x,y) ise grublanmýþ ifadeleri  düzene sokmaya yarýyor
+
+***ders sonu

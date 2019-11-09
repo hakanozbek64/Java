@@ -1,0 +1,32 @@
+7. ders:
+
+random sýnýfý ;
+
+rastgele sayý üretme :
+
+random sayilarý oyunlarda (örnegin tetris gibi ) kullanýlýr
+
+iki yöntem var :
+
+1.matematik sýnýfýn random elemanýndan yararlanýcaz 
+
+2. sýnýfýmýz random sýnýfý ile de yapabiliriz.
+
+
+paketlerimiz ekleme:  import java.x ile ekleriz 
+burada:
+import java.util.random dýr.
+
+
+burada random sýnýfýnýn fonksiyonlarý vardýr
+random=rsayi=new random ();
+
+
+random sýnýfýnýn tüm özelliklerini rsayi ya  aktarmýþ olduk 
+.
+
+rsayi gibi bir sýnýfý  oluþturmuþ olduk ...ve 
+rsayi.x   x burada random sýnýfýnýn tüm fonksiyonlarý oluyor
+
+*** ders sonu
+

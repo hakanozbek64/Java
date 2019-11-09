@@ -1,0 +1,29 @@
+15. ders:
+swictch yapýsýnýn kullanýmý incelenecektir:
+
+!= eþitdegildir operatörüdür.
+
+?= eþit midir iþareti.
+
+== eþittir.
+
+swict örneginde önce bir rastgele sayý üretiyoruz.
+
+if ile devamlý oluþturdugumuz kýsýmlar yerine switch case yapýsý yapýlabilir.
+
+break ile switch imizi durdurmuþ oluyoruz .yani cýkmýþ oluyoruz.
+
+break ile kodu bitirmiþ sonlandýrmýþ oluruz 
+eger break yazmassak en son yere kadar okumuþ  yazdýrmýþ oluruz .
+
+eger bu durumlarýn dýþýnda bir deger bulunmasýný istersek  ozaman default ile belirtiriz.
+defoult olumsuz koþullar için kullanýlýr genelde...
+
+import java.util.scanner ise bufferden reader ile ayný ,kalvyeden girilen ifadeleri almak için kullanýlýr.
+
+
+örnegi inceleyiniz.
+
+girdiyi alýyoruz (system in ile)
+
+***ders sonu...

@@ -1,0 +1,38 @@
+8.ders:
+
+matematik sýnýfý ve içinde bulunan metodlarýn kullanýmý:
+
+önce ana sýnýfýmýzý oluþturarak baþlýyoruz:
+mat sýnýfý içinde karekaöka alabilecegimi,kuvvetini alabilecegimiz sayýlarýn yada trigonometrik iþlemler yapabilecegimiz metodlar barýndýrýyor içinde 
+
+
+
+*matematik sýnýfý genelde bir kaçý hariç double sýnýfta calýþýr 
+
+örnegin double d=math.random();
+dersek bir rastgele sayý üretiriz double türünde ancak buraya int yazrsak hata ile karþýlýþaýlýz ...(* yukardaki sebepten) 
+
+örnekleri inceleyiniz:
+
+
+random metodonu kullanýyorsuk bu da rasgele sayýlar üretmemizi saglýyordu ve aralýgý 0-1 arasýnda idi. 
+
+þimdi bu aralýgý nasýl degiþtirebiliriz:
+
+
+bunu degiþtirmek istedigimizde  
+bunu bir sabit degerle carpýyoruz .artýk nasýl degiþtirmek istersek o degerde caprýmla degiþtiriyoruz..
+
+double d=math.random()*45;
+limit 0-45 arasý olmuþ oldu.
+
+eger 1.0 ile 46.0 arasý istersek 45+1 dememiz yeterli olucaktýr.yani temel sayý ve en son sayýyý + ile ekleriz 
+
+random degerini nasýl int degerine cevirebiliyoruz...
+
+int a=(int)(math.random()*10+1);1-11 arasý olucak (0*10+1-1*10+1 )
+system.out.printýn(a);ilede gösteriyoruz 
+
+
+***ders sonu
+

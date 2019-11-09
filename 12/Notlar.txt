@@ -1,0 +1,189 @@
+12.ders:
+nesneye yönelimli programlama temelleri iþlenecektir:
+
+nesneye yönelik programlama nedir?
+
+herþey class lardan oluþuyor.
+
+ana class ciftlik tir.
+
+
+ciftlik sýnýfýnda 
+
+önce ciftligimizin adý olacak..sahibi olacak vs hayvanlar vs olacak köpek inek tavuk vs olucaktýr.
+yukardaki gibi sýnýflar oluþturuyoruz .adý üzerinde nesneye yönelik programlama....
+
+bu nesnelerimizi kullanýcaz ,degiþtricez 
+
+istedigimizi yapabilecez bunlarla...
+
+sinif adi önce string tipinde ciftlik adý oldu.
+
+nesne yani propert oluyor: ciftlikadi;
+
+
+yani buradaki nesneler herzaman özellikleri degiþebilen özellikler oluyor burada
+örnek:
+out gibi printýn ile degiltirmek gibi 
+
+sayýlarýný ise int ile belirtiyoruz ancak ismi ayný olmayacaktýr...
+
+örnegin köpekler yerine köpek dememiz gereklidir.
+
+bunlarý yazdýrmak istersek örnegin ciftlik adý ve sahibi diye :
+bunun için bir fonksiyon oluþturuyruz..
+
+
+
+tabi ki de return kullanmamýz gerekli çünki degeri döndürmek için return gerekli...
+
+
+--
+
+
+ciftlik ana sýnýfýna önersek 
+
+yabancý oldugumuz için :
+
+önce ciftlige (girmek) yani  giriþ yapmak gereklidir..
+
+
+ciftliksinifi dan sonra bir referans atýyoruz...
+
+
+giriþ için :
+
+
+ciftliksinifi ciftlikgiriþ=new ciftliksinifi(); yazmamýz yeterli...
+
+girdigimize göre artýk her iþlemi yapabiliriz..
+
+
+
+en son ciftlik bigisi,ciftlikhayvanlar gibi fonksiyon belirten yapýlarý belirlemek için direct ana fonksiyonda yazdýrcagýz...
+
+cb : cftlik bilgisidir.ayrýca  return ile deger döndürelecek.
+
+
+ nesnelerimizi istedigimiz yerde istedigimiz þekilde degiþtirebiliyorduk burada tavuk sayisini degiþtirdik örenegin basitce..
+
+public statik diyerekte 
+
+giriþ yapmadan gösterim yapýlabilir..
+ yani nesnesi olmadan da cagýrabiliyoruz.
+
+hayvan sayisi (hsayisini) farklý þekilde kullanmýþ oluyoruz
+
+yada dogrudan 
+int hsa=ciftliksinifi.hsayisi(); kýsmýný silerek 
+
+system kýsmýna :
+System.out.println("satatik fonksiyon"+ciftliksinifi.hsayisi());
+
+yazabilirdik.
+
+
+
+---
+
+diger bir nokta 
+
+
+dikkat edersek tavuk , hayvan sayisi gibi þeylere  bir ilk deger atamýþtýk.
+
+yani:
+
+ciftliksinifi ciftlikgiriþ=new ciftliksinifi();
+        ciftlikgiriþ.ciftlikadi="HAKAN PAZARLAMA ÇÝFTLÝGÝ";
+        ciftlikgiriþ.ciftliksahibi="hakan özbek";
+        ciftlikgiriþ.köpekler="köpek";
+        ciftlikgiriþ.inekler="inekler";
+        ciftlikgiriþ.tavuklar="tavuklar";
+        ciftlikgiriþ.inek=100;
+        ciftlikgiriþ.köpek=5;
+        ciftlikgiriþ.tavuk=27; 
+
+burada istersek bunu yapmaya bilirdik ..
+
+string tipinde:
+
+ca: ciftlik adý:
+
+cs: ciftlk sahibi,
+
+k,i,t: köpek,inek,tavuk dur.
+
+int tipnde 
+
+ko,in,ta ise kopek , inek ve tavuk sayýsý
+
+ile ciftlik sýnýfýnýn sonuna :
+
+public ciftliksinifi(String ca,String cs,String k,String i,String t,int ko,int in,int ta  )// buna constructor denir .yani hazýrlayýcý denir .
+
+   
+   {
+       
+   ciftlikadi=ca;//tanýmlam yapmýþ olduk.
+   ciftliksahibi=cs;
+   köpekler=k;
+   inekler=i;
+   tavuklar=t;
+   köpek=ko;
+   inek=in;
+   tavuk=ta;
+       
+   
+   }
+ekliyoruz.
+
+ana classta yani ciftlik  kýsmýnýn ana clasýn altýný basýlý tutarak ampuleri görücez ve ampule basarsak oradan secekti secersek kodlarýmýz .yorum satýrý olur.
+
+ve en son kýsma biz ekliyoruz (ciftlik kýsmýna ):
+ 
+ciftliksinifi ciftlikanahtar =new ciftliksýnýfý()//haline instance denir.
+
+ 
+ciftliksinifi ciftlikanahtar =new ciftliksýnýfý(null,null,..)kýsmýnda degerleri ve türleri ile bunu belirlemiþ oluyoruz .yani deger atamýþ oluyoruz.
+
+ciftliksinifi ciftlikanahtar =new ciftliksýnýfý("","",5,5,..);
+
+gibi olucak.
+
+
+
+öneceki örenkten farklý olarak !
+
+
+
+en son system.out iel göstericez o da þöyle :
+
+String cb=ciftlianahtarý.ciftlikBilgisi();//cb : cftlik bilgisidir.ayrýca  return ile deger döndürelecek.
+        String ch=ciftlikanahtarý.ciftlikHayvanlari();
+        ciftlikgiriþ.tavuk=100;
+        int chs=ciftlikanahtarý.hayvanlarinSayisi();
+        int chas=ciftlikanahtarý.hayvanlarinAyakSayisi();
+        int hsa=ciftliksinifi.hsayisi(); 
+
+
+son alarakta.
+
+
+System.out.println("Çiftlik Adý ve Çiftlik Sahibi:"+cb);
+        System.out.println("Ciftlik Hayvanlarý:"+ch);
+        System.out.println("Ciftlik Hayvanlarýnýn Sayisi:"+chs );
+        System.out.println("Ciftlik Hayvanlarý Ayak Sayisi:"+chas    );
+        System.out.println("statik fonksiyon:"+hsa);//1. tarz yukardaki int hsa... ile  birlikte 
+        System.out.println("satatik fonksiyon"+ciftliksinifi.hsayisi()
+
+
+burada ayný iþemi yapmýþ olduk aslýnda ...
+
+
+bu videoda 38.dk sonrasý yoktur.
+
+***ders sonu
+
+
+
+

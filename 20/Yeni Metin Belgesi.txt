@@ -1,0 +1,66 @@
+20. ders 
+
+component button sinifi:
+
+(label sinifina benziyor.)
+önce aws sinifini ekliyoruz.
+
+pencere 2 sinifimizi kullanacagýz .
+
+onun için
+
+bunu ekliyoruz.
+
+burada aslýnda yapýlan bir buton uygulamasý
+
+
+buton nasýl oluþturulur 
+bunu buton sinifi içinde belirtiyoruz.
+butondan b1 adlý bir sinif türetiyoruz.
+ayrýca 
+
+butondan b2 adlý bir sinif türetiyoruz.
+
+label ile 
+yazýsýný oluþturuyoruz.
+
+
+font ile ön yazý oluþturuluyor.
+3 paremetre alýyor.
+
+ayrýca 
+butondan b3 adlý bir sinif buttontüretiyoruz.adý buttonn olacak 
+enable false ile birþey yapmamasý saglanýyor.
+
+ayrýca 
+butondan b4 adlý bir sinif buttontüretiyoruz.
+
+renkli olucak b2 gibi
+
+yazý olarak renkli button yazýcak
+
+ön renk 
+
+arka renk ayarlamsý yapýlýyor.
+
+daha sonra pencere2 tanýmlamasý yapýlacak
+
+
+pencere2 den pencere sýinifi türetiliyor.
+daha sonra bunlarýekliyoruz.
+
+add ile...
+
+visible ile görünürlüne bakýlacak
+
+button ile ilgili kýsým bitti 
+þimdi bunu ana fonksiyondan cagýrmalýyýz.
+
+kodu calýþtýrýn o kadar.
+ 
+kod 18. örnekteki kodu calýþtýr 
+oradan button label, run demen yeterli 
+
+
+ders sonu.
+

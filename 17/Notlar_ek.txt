@@ -1,0 +1,58 @@
+17.ders:
+
+for dongusune 2. bölümden devam ediyoruz..
+
+charlarý tek týrnakla belirtiyoruz.bilindigi gibi
+
+
+dizi.lenght ile dizinin uzunlugunu bulmuþ oluyoruz.burada 3 tür.
+
+þeklinde bir dizi ile örnek yapýlabilir...
+
+
+þöyle:
+
+package ForDongusu2;
+
+/**
+ *
+ * @author Dell
+ */
+public class ForDongusuSinifi {
+    public static void main(String [] args)
+    {
+    
+    char[] dizi={'a','b','c'};
+    
+    for(int i=0;i<dizi.length;i++)
+    {
+    
+    System.out.println(dizi[i]);
+    
+    
+    }
+    
+    }
+    
+}
+
+
+
+þeklinde 
+
+diger örnekte yani:fordizisisinifinda ise
+
+12*12 bir dizi oluþturmak için bir kod yazýyoruz önce:
+
+int [][] cd=new int[12][12]   ; þeklinde 
+
+digerleri bilinen þeyler 
+
+cd[i-j][i-j]
+ile sýraya koymuþ oluyoruz.
+
+üsteki 2 for i ve j carptrýlýyor 
+
+altaki forlar  ise yazdýrmakn  için kullanýlýyor...ve diziy oluþturmak için kullanýlýyor.
+
+***ders sonu.

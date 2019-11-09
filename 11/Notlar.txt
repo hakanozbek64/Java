@@ -1,0 +1,88 @@
+11. ders:
+
+bu derste hata yakalama yani try catch ifadesi anlatýlacaktýr...
+
+hata yakalama denir?
+
+
+
+
+programý oluþturduk yayýnladýnýz diyelim ki yaptýgýnýz programda matemetik iþlemleri yapýyorsunuz deyelimki yani basitten bir hesap makinesi yaptýnýz 
+
+hesap makinesi sadece sayýlarla calýþacagýna göre diyelim ki kullanýcý bilgisayarda yaptýgýnýzý düþünelim  
+
+kullanýcý harf yada birþey girdi diyelim böyle durumda program cökecek yada hata verecek ...
+
+böyle bir durumda i try catch  blogumuzu kullaýyoruz...
+
+bizde buna benzer bir örnek yapýcaz ..senoryo da görücez ..
+
+klavyeden sayý giricez ve girdigimiz bu sayýyý ekranda göstericek....
+
+
+
+harf yada baþka birþey girersekte bize sadece sayý giriniz  diyecek ...
+
+örnegimizin acýklamasý böyle 
+
+
+
+
+önce paketimizi ekliyoruz 
+
+
+aslýnda baffur reader eklememiz gerekti ama biz hepsini ekledik * ile .
+
+buffer reader ile okuma iþlemini gercekleþtricez ...
+
+
+
+dogru yada yanlýþ olcacagýna göre degiþecegine göre program ozaman 
+
+
+
+
+boolean bir yapý oluþturmamýz lazým ..
+
+
+false böyle ;true ise þöyle yapýcak gibisinden ...
+
+
+sayýmýz olucak ve 0 dan da baþlýyacak 
+ozaman int kullanýcaz ...ilk deger atýyoruz.
+
+
+okumuzu tanýmlayýp  sonra 
+
+do while kullanýcaz...
+
+sonra try catch ile hatalarýmýzý bulucaz...
+
+try  içine biz 
+
+kullanýcý baþkabir þey giridiginde string gibi mesela bunu integer degerine  ceviricez...
+ 
+try ile ...devam 
+sayi=integer.parseýnt(); diyerek integere cevrimiþ oluyorduk önceki derslerden bilindigi gibi...
+
+try ile dogru kýsýmlarý catch ilede hatalý kýsýmlarý bulucaz ...
+
+
+catch ile...devam 
+number ... gibi þey sayý dýþýnda birþey girilirse yakalanmýþ olucak..
+
+
+
+hata try kýsmýnda denetlenir ve catch kýsmýnda yakalanýr...
+
+
+IO Exception kullanýcýnýn girdigi degerle alakalýdýr 
+
+
+while ile sayýmýzý yazdýrýyoruz...
+
+
+***ders sonu
+
+
+

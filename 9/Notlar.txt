@@ -1,0 +1,46 @@
+9. ders:
+
+matematiksel metodlarla zar yapma oyunu:
+
+
+iki zar atýcaz ve 2 yüzünü kullanýcaz bu  yüzden
+matematik sýnýfýnýn random metodunu kullanarak  bir zar yapma oyunu yapýcaz .
+
+önce bir paket ve sýnýfýzý oluþtrumakla baþlýyoruz.
+
+zaroyunu paketi ve zaroyunusýnýfý oluþturuyoruz.
+
+random sýnýfýný kullanýcagýmýz için impoet java.util.random ;diyerek sýnýfýmýza eklemiþ olduk.
+
+zarlarý atýyoruz:
+
+math sýnýfýnýn random metodunu kullanýcaz.
+
+önce degiþken atýyoruz daha sonra:
+
+
+rsayiya random sýnýfýnýn tüm özelliklerini eklemiþ olduk.
+iki tane zar olucagý için iki degiþken kullanýyoruz 
+
+sayi1 ve sayi2 gibi...
+
+   rdsayi=Math.random(); ile rastgele  sayimizý üretiyoruz ama 0-1 arasýnda olur 
+
+biz bunu 0-6 arasýnda bir tamsayi istedigimiz için ;
+
+rdsayi=rdsayi *6 dersek 1.00-6.00 arasý olucaktýr.
+
+int tipinde 1-6 arasýnda sayi oluþturuyoruz :
+
+sayi1=(int)(rdsayi+1);
+
+
+sayi2 için ise 
+
+sayi2=rsayi.nextýnt(6)+1;
+sadece 6 yazsaydýk 0-6 arasý olucaktý +1 ile toplarsak 1-6 arasý bir int degeri bize üreitmiþ olucak.burada 7 dahil degil yani n-1 tane oluyor.
+
+sonucu printýn ile gösterip cýktýyý görelim.
+
+
+***ders sonu.

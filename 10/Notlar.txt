@@ -1,0 +1,56 @@
+10.ders: if else yapýsý incelenecektir:
+
+ 
+
+önce burada zar ile atýlan sayýnýn tek mi? cift mi oldugunu   bulduran bir program yapýyoruz...
+akýþ kontrollerinden ilki if yapýsýný görücez;
+akýþ kontrolleri nedir?
+
+programýmýzý istedigimiz þekilde kontrol etmemizi saglayan yapýlardýr.
+
+örnegimize baþlýyoruz 
+
+önce tabiki ana class ýmýzý oluþturuyoruz.
+
+
+if (eger ) demektir olumlusu .
+else anlam olarak (degilse,baþka ise)olumsuzu oluyor
+
+% modul anlamaýnda kullanýlýr.
+
+
+
+rastgele bir sayý üretiyoruz ve * carpýyoruz 0-7 arasýnda olmasý için  baþtaki int ise tamsayý belirtmesi amaçýyla kullanýlýr.
+
+if(a%2==0 )
+demek a sayýsýnýn 2 ye göre modulunun  0 degerine eþit olmsý durumunda denmekte.
+
+
+else ise aksini belirtir burada ...
+
+
+else if (yada )anlamýnda yani burada devamlý if if alt alta yapmak yerine 
+
+else if demiþ oluyoruz.
+
+------------------
+diger örnek:
+
+
+ bir sýcaklýk üretilerek (ratsgele random sýnýfý ile) bunun belli aralýklarla cýktý þeklinde yazdýralým .
+
+matematik sýnýfýný kullanmadýgýmýz için 
+
+randomu kullanýcaz yani paket eklememiz gerekiyor.
+
+
+fark n-1 +1 den 
+
+
+fark 0 ise min -20 olur
+
+fark 50-(-20)+1-1-20 =+50  olur
+
+
+
+***ders sonu

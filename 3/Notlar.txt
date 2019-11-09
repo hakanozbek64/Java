@@ -1,0 +1,24 @@
+3.ders:
+
+kaçýþ dizileri ve matematik operatorleri konusu iþlenecektir...
+ 
+sadece \ kulanýrsak " tuþunu iptal ediyor diyebiliriz
+
+\n dersek ozaman bir alt satýra düþer yazý
+
+
+\t dersek 4 birim boþluk oluþturur.
+
+
+modulü % iþaretiyle gösteriyoruz.
+
+
+modulde bize kalaný sonuc olarak vericektir.
+
+herhangi bir degiþkenin x, y vs oalabilir 
+bunlarýn türünü degiþtirmek için baþýna degiþtirmek istedegimiz  türü parantezde verirsek dönüþüm olur.
+
+
+ders sonu
+
+

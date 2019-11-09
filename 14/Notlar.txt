@@ -1,0 +1,13 @@
+14. ders:
+text area componentlerini görücez:
+
+
+örnekte: 
+herzamanki gibi awt yi öncelikle ekliyoruz.
+ardýndan penceremizi kullanýcagýz:
+
+bu kýsmdaki javavegui kýsmý eksiktir.dolayýsý ile pencere kýsmý cýkmýyor..
+
+
+
+daha sonraki videolara bakýnýz. 

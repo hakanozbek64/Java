@@ -1,0 +1,39 @@
+22. dersin konusu 
+choice componenti:
+yani secim komponeti denebilir.
+
+herzamanki gibi awt eklemesini yapýyoruz.
+
+ve pencere2 de eklemiþ olduk.
+
+public class ChoiceSinifi
+altýna choive sinifi oluþturuyoruz.
+
+ve artýk choice oluþturmaya baþlýyoruz.
+
+choice c1=new choice();
+
+ile oluþturmuþ olduk.
+
+
+ögelerimizi eklemek için add ile oluþturuyoruz.
+
+yani secenek oluþturmuþ olduk.
+
+tekrar c2 ile tekrar oluþturmuþ oluyoruz.
+
+ön arka plan renkleri 
+
+font ve backround ile yapýlýyoruz bilindigi gibi.
+
+
+en son pencere2 alýp 
+
+kullanýyoruz.
+
+en sonda ana sýnýfýmýzdada cagýrýrsak kodumuz bitmiþ oluyor.
+
+kod component sinifinde eklenmiþtir.
+
+kodun calýþýr hali 18. kod calýþtýrýldýgýnda choice sinifi calýþtýrýlarak görülebilir.
+

@@ -1,0 +1,58 @@
+5.ders:input output kullanýmý?
+
+ekarana girlen degeri ekrana yazmak basitce;
+
+örnek:
+ inport yazarak  paketlerimizi ekliyoruz.
+
+burada io diye gecer ve sonra kullanmak istedigimiz sýnýfý seciyoruz (write,read gibi)
+
+buradaki yýldýzla hepsini seçmiþ oluyoruz.
+
+yazýyazma fonksiyonunda kodu yazýp input_output kýsmýndan calýþtýracagýz..
+
+
+yazýyazma sýnýfýnda kodlarý yazýyoruz 
+
+herkesin kullanacagý bir siniýfoluþturuyoruz 
+
+  public static void yaziyazmafonk(){
+
+
+bunun parentez içine paremetre belirtiyoruz.
+
+*adýný girip bunu ekranda yazdýracagýz 
+
+
+kullanýcýnýn girdigi  yerde try yakalama fonk kullandýk dikkat edelim.
+
+new BufferedReader(new InputStreamReader(System.in)); 
+kýsmý klavyeden oku nan veriyi alýr.ve burada okuya atar.
+
+sorumuzu soruyruz adýnýz nedir diye
+burada aslýnda yazý yazýyoruz ;yazma iþini yapýyoruz klavyeye
+
+yazý_yazma_sinifi.yaziyazmafonk("adiniz nedir:"); 
+
+
+girilen veriyi(girilen veriyi )okuyoruz ve ada aktarýyoruz.
+
+ad=oku.readLine();
+
+ana class olan yer calýþtý ancak diger yazý yazma denilen kýsmda ana fonk olmadýgýndan calýþmaz bu belirtilen hatayý veririr.
+
+
+baþlangýc classlarý olmak zorunda ancak 
+
+sýnýflarýmzýn baþlangýc classlarý olmak zorunda degildir.
+
+input output kýsýmýný baþka bir packete atýp calýþtýrabilirdik...
+
+ona göre paket kendini düzenler.
+
+
+
+***ders sonu
+
+
+

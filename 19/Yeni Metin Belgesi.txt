@@ -1,0 +1,31 @@
+19. ders
+
+label componeninin kullaným(bilieþnleri ):
+
+Labeller ; katmanlar yazýlarý labellarla ekleriz...sabit yada degiþken
+
+awt ile hepsini ekliyoruz.
+ import javagui.pencere2;
+ile pencere2 yi buraya eklemiþ oluyoruz 
+buraya aktarmýþ oluyoruz.
+
+yeni bir label oluþturmak için new kelimesini kullanýyoruz 
+
+label l1=label(); 
+ile labelden l1 isimli bir nesne oluþturuyoruz.
+
+font ön taraf ayarý 
+
+set text ile gömülü þekilde yazýyý oluþtruyoruz false ile gizliyoruz.
+
+background arka renk 
+
+foreground ön renk oluyor.
+
+pencere2 deki baþlýk denilen kýsým label testi yazan kýsým oluyor.
+penvere sýnýfýna ürettigimiz l1,l2ve l3 ve 14 ü ekliyoruz 
+ve set visible ile penceremizin görünmesini saglýyoruz.
+
+
+
+ders sonu

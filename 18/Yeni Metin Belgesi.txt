@@ -1,0 +1,111 @@
+18. ders:
+
+java GUI arayüz arayüz programlamaya giriþ :
+
+yeni bir proje oluþturuyoruz..
+
+Buradan yeni bir sýnýf oluþturucaz temiz görünsün diye
+
+adý pencere 
+
+tabi dogal olarak main sýnýfý(javave guý )da java ve gui paketi içerisinde var 
+
+yorum satýrlarýný silebiliriz.
+
+görsel olarak programlama yapabilmek için yani GUI 
+ programing yapabilmek için paket eklemeliyiz.awt paketini ekliyoruz.
+
+importjava.awt ile
+
+bu örnekte basit pencere oluþturacagýmýz için frame clasýmýzý ekliyoruz.
+
+
+
+frameyi kullanabilmek için yani pencere oluþturabilmek için bu sýnýfýmýzýn frame'den miras almasý lazým .bunududa extend ile yaparýz .
+
+
+pencere sýnfý altýnda bir tane daha pencere fonksiyonu oluþturuyoruz.burada basit bir ekran oluþturuyoruz.
+
+super ile baþlýgýmýzý ayarlýyoruz.
+setsize ile 2 paremetre alýr 
+
+1. parametre geniþlik. 
+2. paremete yüksekliktir.
+
+piksel cinsinden 
+
+Setvisibil ile görünürlügü secilir buda true olmalý.
+
+
+main fonksiyonu ile bu sýnýfýmýz cagýrmak zorundayýz.
+
+
+
+new pencere ile pencere sýnýfýný türettik cekmiþ olduk.
+
+
+
+ve calýþtýrýrsak basit bir gui penceresi oluþturmuþ oluruz.
+
+
+----------bu kýsýmda 
+ pencere 
+2 sýnýfý oluþturularak eklemeler yapýyoruz (label componenti için )
+
+
+yorum satýrlarýný siliyoruz.
+
+awt paketin hepsini ekliyoruz.
+
+import java awt * ile bunu yaparýz.
+awt paketi içidende event paketini ekleriz.
+
+
+ekran oluþturacagýmýza göre extent ile frame ekleriz.
+
+
+implement metod unuda ekleriz.
+
+
+ekranlarýmýzý ayarlýyoruz.
+
+
+super ile baþlýgýmýzý cekiyoruz.
+
+ekran boyutu setsize ile 
+
+setbackground ile arka plan ayarlanýyor.
+set location ekranýn neresinde duracagýný ayarlýyoruz.
+
+
+setloyout ile sekli düzene sokmuþ oluyoruz.
+addwindowlistener(this ) ile bunu cekmiþ olduk.
+
+en son 
+public class pencere2 extends Frame implements WindowListener{ 
+
+ifadesinde hatalý bir ifade cýkýyor gibi yanda bir ampýl belirir ve ampule týklayarak 
+
+
+implement all abstract metod ifadesine basarak alta benzer 
+ kodlar eklenecektir .
+
+buradan bazý yerleri silicez...
+
+throw new.. ile baþlayan kýsýmlarý siliyoruz.
+
+closing ifadesini oldugu kodun altýna þu ifadeyi ekleriz 
+
+
+dispose ();
+system.exit(0); ile cýkýyoruz 
+ifademiz bitmiþ oluyor.
+
+
+diger ders devam edilecek
+
+ders sonu
+
+
+
+

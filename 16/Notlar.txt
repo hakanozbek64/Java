@@ -1,0 +1,36 @@
+16.ders:
+
+array lar (diziler) konusu iþlenecektir.
+
+
+nesneler yada primitiv tipleri barýndýran listelerdir...listelerdir diyebiliriz.
+
+ayný veri tipinden olanlar ile ayný veri tipinden olanlarý  tek bir isim degiþkenine baglamýþ oluyoruz.yada tek bir isim degiþkeninde tutmuþ oluyoruz..
+
+veri tiplerinden yada nesnelerden oluþur.
+
+
+
+
+bir dizi oluþturarak örnegimize baþlýyalým
+
+iki þekide dizi oluþturabiliriz
+
+dizleri oluþtuturken köþeli parentezleri kullanýyoruz [] þeklinde.
+þeklinde basitce oluþturabilriz...
+
+
+        int [] dizi;
+        dizi= new int[5];
+        System.out.println(dizi);
+
+ancak string tipinde örnek yapýcaz 
+dizideki deger yada harfi,ifadeyi degiþtirme 
+
+lenght: dizinin uzunlugu
+
+cok boyutlu dizler ve oluþturulmasý:
+
+ görüldü.
+
+***ders sonu

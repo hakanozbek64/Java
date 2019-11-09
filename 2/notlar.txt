@@ -1,0 +1,27 @@
+2.ders:
+veri tipleri:
+
+pirimitiv veri tipler(ilkel tipler) ve class veri tipler olarak 2 ' ayrýlýr..
+
+önce ilkel veri tiplerimizi inceliyecegiz...
+ örneklerden bu gözlendi
+
+sýnýf veri tipleri :
+
+genelde stringler kullanýlýr.
+
+
+
+ilkel ve sýnýf veri tipleri arasýndaki fark
+
+*ilkel tipler sýnýf tiplerimizden daha hýzlýdýr.ve bu yüzden sýnýf tipleri daha büyük bir alan kaplar.çünki alt metodlarýnýn olmasýndan ötürü elbette.
+
+ilkel tipler: üçük mavi 
+
+sýnýf tipleri: büyük harfla baþlar ve siyahtýr.
+
+
+
+bir sýnýfý calýþmasý için ana sýnýf gerekmiyor ancak programýmýzýn calýþmasý için gerekiyor...
+
+

@@ -1,0 +1,37 @@
+21. ders 
+textfield componenti:
+
+textalalaný oluþturma:
+
+
+boþ yada dolu kutucuklar denebilir...
+
+awt ekliyoruz hemen 
+
+pencere2 kullaancagýmýz için bunu da ekliyoruz.
+ 
+
+daha sonra fonkiyonumuzu oluþtutuyoruz...
+
+public class textfieldsinifi altýnda...
+aynen label gibi eklemelerimizi yapýyoruz..
+
+
+boþ yazý kutusu oluþturmak için:
+
+ TextField tft1=new TextFieldSinifi();
+
+aynen bir tane daha :
+
+ TextField tft2=new TextFieldSinifi(25);
+  25 burada kutucugun uzunlugudur.
+tf2.set ile yazýsýný yazmýþ olucaz.
+
+font ayarlamasý:
+
+ve benzer yapýlar...
+
+kodlarý 18.örnekten acarsanýz textfeildsinifi çýkacaktýr.
+
+
+ders sonu.
